@@ -14,6 +14,7 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
+      UnityLoader.SystemInfo.mobile = false;
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/ChroNoiR-Tower.json", {onProgress: UnityProgress});
     </script>
   </head>
